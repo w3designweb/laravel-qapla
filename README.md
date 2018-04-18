@@ -49,7 +49,7 @@ The facade is optional, but the rest of this guide assumes you're using the faca
 
 Next, publish the config files:
 
-``` php
+``` bash
 php artisan vendor:publish --provider="W3design\Qapla\QaplaServiceProvider" --tag="config"
 ```
 
