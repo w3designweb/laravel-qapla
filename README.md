@@ -8,18 +8,7 @@
 
 An easy [Qapla](https://www.qapla.it/) API integration for your Laravel 5 web application.
 
-## Qapla
-Your shipments' best friend.
-- Complete control on problematic shipments
-- 59 couriers supported in only one dashboard
-- Status auto-update and custom tracking page
-- Transactional email and support ticket
-- Multi-store and multi-platform integration
-
-### 	Documentation
-Website: [https://www.qapla.it](https://www.qapla.it)<br>
-API: [https://api.qapla.it](https://api.qapla.it)<br>
-Webhook: [https://webhook.qapla.it](https://webhook.qapla.it)
+![LaravelQapla](imgs/laravel-qapla.png)
 
 ## Install
 
@@ -28,7 +17,7 @@ You can install the package via Composer:
 ``` bash
 $ composer require w3designweb/laravel-qapla
 ```
-In Laravel 5.5 and up, the package will automatically register the service provider and facade
+In Laravel 5.5 and up, the package will automatically register the service provider and facade.<br>
 In Laravel 5.4 or below start by registering the package's the service provider and facade:
 
 ``` php
@@ -127,6 +116,19 @@ Return the list of couriers either total, or for single country/region.
 ``` php
 $couriers = $channel->getCouriers();
 ```
+
+## Qapla
+Your shipments' best friend.
+- Complete control on problematic shipments
+- 59 couriers supported in only one dashboard
+- Status auto-update and custom tracking page
+- Transactional email and support ticket
+- Multi-store and multi-platform integration
+
+### 	Documentation
+Website: [https://www.qapla.it](https://www.qapla.it)<br>
+API: [https://api.qapla.it](https://api.qapla.it)<br>
+Webhook: [https://webhook.qapla.it](https://webhook.qapla.it)
 
 ## Change log
 
